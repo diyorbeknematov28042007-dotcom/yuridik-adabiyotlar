@@ -167,10 +167,10 @@ async def book_detail(call: CallbackQuery):
     text = (
         f"📖 <b>{book['title']}</b>\n\n"
         f"✍️ <b>Muallif:</b> {book['author']}\n"
-        f"📅 <b>Yil:</b> {book['year'] or 'Noma\'lum'}\n"
+        f"📅 <b>Yil:</b> {book['year'] or 'Noma lum'}\n"
         f"🗂 <b>Yo'nalish:</b> {book['direction']}\n"
-        f"📑 <b>Kategoriya:</b> {book['category'] or 'Noma\'lum'}\n"
-        f"📚 <b>Fan nomi:</b> {book['subject'] or 'Noma\'lum'}\n"
+        f"📑 <b>Kategoriya:</b> {book['category'] or 'Noma lum'}\n"
+        f"📚 <b>Fan nomi:</b> {book['subject'] or 'Noma lum'}\n"
         f"📥 <b>Yuklangan:</b> {book['downloads']} marta\n\n"
         f"Kitobni yuklab olish uchun tugmani bosing 👇"
     )
